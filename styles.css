@@ -1,0 +1,37 @@
+*{
+  /* applies to ever element on page, don't add too much - causes problems */
+  box-sizing:border-box;
+  /* this makes your padding and border part of the hight and width of the content in the box model, so it's easier calculate when you want to know exactly how big your elements are */
+}
+body{
+  background:rgb(28, 2, 2);
+  color:white;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-content:flex-start;
+  justify-content: flex-start;
+  align-items:center;
+  gap:0;
+
+}
+.title1{
+  font-size:4vw;
+  padding-bottom:0;
+}
+.title2{
+  font-size:5vw;
+  padding-bottom:0;
+  padding-top:0;
+}
+.title3{
+  font-size:2vw;
+}
+.click-me{
+  background:rgb(189, 59, 59);
+  padding:2vw;
+  color:white;
+  font-size:2vw;
+  border-radius: 50%;
+
+}
